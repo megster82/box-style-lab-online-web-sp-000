@@ -1,4 +1,7 @@
 body, html {
+  background-image: url("./images/white-wood.jpg");
+  background: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
   font-family: Apple Chancery, cursive;
@@ -15,6 +18,9 @@ body, html {
   margin: 10px auto;
 }
 
+.container amiable  {
+  background: linear-gradient (to right, #fff, #000)
+}
 h4 {
   width: fit-content;
   display: inline-block;
@@ -23,18 +29,21 @@ h4 {
 }
 
 .amiable {
-  border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-
+  box-sizing: border-box;
 }
-
+  
 .indifferent {
+  box-shadow: -1px 1px #b0b01c, -2px 2px #b0b01c, -3px 3px #b0b01c, -4px 4px #b0b01c, -5px 5px #b0b01c;
   background-color: #dddd22;
+  background: linear-gradient (to right, #fff, #000);
 }
 
 .dubious {
+  box-shadow: -1px 1px #c22424, -2px 2px #c22424, -3px 3px #c22424, -4px 4px #c22424, -5px 5px #c22424;
   background-color: #dd4444;
+  background: linear-gradient (to right, #fff, #000);
 }
 
 .column {
@@ -43,14 +52,17 @@ h4 {
 }
 
 .small {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  border: 1px solid rgb(54,118,68);
 }
 
 .med {
   width: 203.5%;
+  border: 1px solid rgb(54,118,68);
 }
 
 .large {
+  border: 1px solid rgb(54,118,68);
   width: 303%;
 }
